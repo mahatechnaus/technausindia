@@ -662,3 +662,37 @@ body {
 .image-container:hover {
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
 }
+
+/* Custom CSS for text flow animation */
+.animated-text {
+    opacity: 0;
+    animation: slideInText 5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes slideInText {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Custom CSS for 3D shadow effect */
+.card-3d {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+  
+    transform: translate3d(0, -5px, 0);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-3d:hover {
+   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
