@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #32C36C;
+    --primary: #088BC3;
     --light: #F6F7F8;
     --dark: #1A2A36;
 }
@@ -92,7 +92,7 @@
 .navbar .navbar-brand,
  a.img {
 
-    /* background-color: #32C36C; */
+    /* background-color: #088BC3; */
     background-color: #22274f;
 }
 .navbar .navbar-nav .nav-link {
@@ -696,3 +696,4 @@ body {
    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s, box-shadow 0.2s;
 }
+
